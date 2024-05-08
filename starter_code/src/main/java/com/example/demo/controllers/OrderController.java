@@ -34,12 +34,12 @@ public class OrderController {
 	public ResponseEntity<UserOrder> submit(@PathVariable String username) {
 		User user = userRepository.findByUsername(username);
 		if(user == null) {
-			log.error("User {} does not exists while submit order", username);
+			log.error("Exception: User {} does not exists while submit order", username);
 			return ResponseEntity.notFound().build();
 		}
 		UserOrder order = UserOrder.createFromCart(user.getCart());
 		UserOrder savedOrder = orderRepository.save(order);
-		log.info("User {} successfully submitted order {}", username, savedOrder.getId());
+		log.info("Success: User {} successfully submitted order {}", username, savedOrder.getId());
 		return ResponseEntity.ok(order);
 	}
 	
@@ -47,7 +47,7 @@ public class OrderController {
 	public ResponseEntity<List<UserOrder>> getOrdersForUser(@PathVariable String username) {
 		User user = userRepository.findByUsername(username);
 		if(user == null) {
-			log.error("User {} does not exists while fetching order history", username);
+			log.error("Exception: User {} does not exists while fetching order history", username);
 			return ResponseEntity.notFound().build();
 		}
 		return ResponseEntity.ok(orderRepository.findByUser(user));
