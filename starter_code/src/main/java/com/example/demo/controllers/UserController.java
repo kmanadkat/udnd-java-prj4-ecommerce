@@ -60,13 +60,13 @@ public class UserController {
 			!password.equals(confirmPassword) ||
 			password.length() < 7
 		) {
-			log.error("Exception: Password for User {} is invalid", createUserRequest.getUsername());
+			log.error("Exception - Password for User {} is invalid", createUserRequest.getUsername());
 			return ResponseEntity.badRequest().build();
 		}
 		// Save User Password
 		user.setPassword(bCryptPasswordEncoder.encode(createUserRequest.getPassword()));
 		userRepository.save(user);
-		log.info("Success: User {} created successfully", createUserRequest.getUsername());
+		log.info("Success - User {} created successfully", createUserRequest.getUsername());
 		return ResponseEntity.ok(user);
 	}
 	

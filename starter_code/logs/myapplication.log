@@ -1,37 +1,54 @@
-2024-05-08 18:52:28.261  INFO 41858 --- [main] com.example.demo.SareetaApplication      : Starting SareetaApplication on HPE-W006N319DH with PID 41858 (/Users/krupeshanadkat/Documents/GitHub/udnd-java-prj4-ecommerce/starter_code/target/classes started by krupeshanadkat in /Users/krupeshanadkat/Documents/GitHub/udnd-java-prj4-ecommerce/starter_code)
-2024-05-08 18:52:28.263  INFO 41858 --- [main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
-2024-05-08 18:52:28.538  INFO 41858 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2024-05-08 18:52:28.565  INFO 41858 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23ms. Found 4 repository interfaces.
-2024-05-08 18:52:28.827  INFO 41858 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$18662442] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-05-08 18:52:28.974  INFO 41858 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2024-05-08 18:52:29.001  INFO 41858 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-05-08 18:52:29.001  INFO 41858 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
-2024-05-08 18:52:29.062  INFO 41858 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-05-08 18:52:29.062  INFO 41858 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 770 ms
-2024-05-08 18:52:29.165  INFO 41858 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-08 18:52:29.239  INFO 41858 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-08 18:52:29.273  INFO 41858 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+2024-05-08 19:39:30.439  INFO 74913 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2024-05-08 19:39:30.441  INFO 74913 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-08 19:39:30.441  INFO 74913 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-08 19:39:30.442  INFO 74913 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-08 19:39:32.016  INFO 75001 --- [main] com.example.demo.SareetaApplication      : Starting SareetaApplication on HPE-W006N319DH with PID 75001 (/Users/krupeshanadkat/Documents/GitHub/udnd-java-prj4-ecommerce/starter_code/target/classes started by krupeshanadkat in /Users/krupeshanadkat/Documents/GitHub/udnd-java-prj4-ecommerce/starter_code)
+2024-05-08 19:39:32.017  INFO 75001 --- [main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2024-05-08 19:39:32.280  INFO 75001 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2024-05-08 19:39:32.307  INFO 75001 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24ms. Found 4 repository interfaces.
+2024-05-08 19:39:32.526  INFO 75001 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6cc8798] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-05-08 19:39:32.652  INFO 75001 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-05-08 19:39:32.664  INFO 75001 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-08 19:39:32.664  INFO 75001 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2024-05-08 19:39:32.714  INFO 75001 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-08 19:39:32.714  INFO 75001 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 670 ms
+2024-05-08 19:39:32.798  INFO 75001 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-08 19:39:32.859  INFO 75001 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-08 19:39:32.889  INFO 75001 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2024-05-08 18:52:29.319  INFO 41858 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
-2024-05-08 18:52:29.320  INFO 41858 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2024-05-08 18:52:29.408  INFO 41858 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2024-05-08 18:52:29.489  INFO 41858 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2024-05-08 18:52:29.836  INFO 41858 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-08 18:52:30.096  WARN 41858 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-08 18:52:30.130  INFO 41858 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@51fa09c7, org.springframework.security.web.context.SecurityContextPersistenceFilter@2914a328, org.springframework.security.web.header.HeaderWriterFilter@62aee901, org.springframework.web.filter.CorsFilter@73db7df0, org.springframework.security.web.authentication.logout.LogoutFilter@614361fa, com.example.demo.security.JWTAuthenticationFilter@44a485bc, com.example.demo.security.JWTAuthenticationVerficationFilter@1c66cd02, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@26291192, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@78bce1c4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1d535b78, org.springframework.security.web.session.SessionManagementFilter@29b4444a, org.springframework.security.web.access.ExceptionTranslationFilter@31a024ea, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6148827c]
-2024-05-08 18:52:30.179  INFO 41858 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2024-05-08 18:52:30.256  INFO 41858 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2024-05-08 18:52:30.257  INFO 41858 --- [main] com.example.demo.SareetaApplication      : Started SareetaApplication in 2.18 seconds (JVM running for 2.397)
-2024-05-08 18:52:37.841  INFO 41858 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-05-08 18:52:37.841  INFO 41858 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-05-08 18:52:37.858  INFO 41858 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
-2024-05-08 18:52:38.052  INFO 41858 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : User krupesh created successfully
-2024-05-08 18:52:53.624  INFO 41858 --- [http-nio-8080-exec-3] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2024-05-08 18:53:09.722 ERROR 41858 --- [http-nio-8080-exec-4] c.e.demo.controllers.UserController      : Password for User krupesh is invalid
-2024-05-08 18:53:44.426 ERROR 41858 --- [http-nio-8080-exec-6] c.e.demo.controllers.CartController      : User krupeshs does not exists while addToCart
-2024-05-08 18:53:56.979 ERROR 41858 --- [http-nio-8080-exec-7] c.e.demo.controllers.CartController      : Item 4 does not exists while addToCart
-2024-05-08 18:54:03.790  INFO 41858 --- [http-nio-8080-exec-8] c.e.demo.controllers.CartController      : Item 1 successfully added to cart 1
-2024-05-08 18:55:55.659 ERROR 41858 --- [http-nio-8080-exec-1] c.e.demo.controllers.OrderController     : User krupeshh does not exists while fetching order history
-2024-05-08 18:56:23.364  INFO 41858 --- [http-nio-8080-exec-4] c.e.demo.controllers.OrderController     : User krupesh successfully submitted order 1
-2024-05-08 18:56:54.271 ERROR 41858 --- [http-nio-8080-exec-7] c.e.demo.controllers.OrderController     : User krupeshh does not exists while submit order
+2024-05-08 19:39:32.917  INFO 75001 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2024-05-08 19:39:32.917  INFO 75001 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2024-05-08 19:39:32.964  INFO 75001 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2024-05-08 19:39:33.010  INFO 75001 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-05-08 19:39:33.326  INFO 75001 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-08 19:39:33.610  WARN 75001 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-08 19:39:33.647  INFO 75001 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@52ccf197, org.springframework.security.web.context.SecurityContextPersistenceFilter@33b2ba25, org.springframework.security.web.header.HeaderWriterFilter@4cb773c5, org.springframework.web.filter.CorsFilter@2b06681c, org.springframework.security.web.authentication.logout.LogoutFilter@26be0d23, com.example.demo.security.JWTAuthenticationFilter@20f6b6e0, com.example.demo.security.JWTAuthenticationVerficationFilter@67cd84f9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@481bae3f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5aeebccc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@52b891de, org.springframework.security.web.session.SessionManagementFilter@3f33bb6f, org.springframework.security.web.access.ExceptionTranslationFilter@471a9e8c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7b9fea11]
+2024-05-08 19:39:33.708  INFO 75001 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-05-08 19:39:33.793  INFO 75001 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-08 19:39:33.795  INFO 75001 --- [main] com.example.demo.SareetaApplication      : Started SareetaApplication in 1.957 seconds (JVM running for 2.133)
+2024-05-08 19:39:42.843  INFO 75001 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-08 19:39:42.843  INFO 75001 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-08 19:39:42.846  INFO 75001 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-05-08 19:39:42.922 ERROR 75001 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : Exception - Password for User krupesh is invalid
+2024-05-08 19:39:53.982  INFO 75001 --- [http-nio-8080-exec-4] c.e.demo.controllers.UserController      : Success - User krupesh created successfully
+2024-05-08 19:40:04.299  INFO 75001 --- [http-nio-8080-exec-5] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2024-05-08 19:40:21.904 ERROR 75001 --- [http-nio-8080-exec-7] c.e.demo.controllers.CartController      : Exception - User krupeshh does not exists while addToCart
+2024-05-08 19:40:31.543 ERROR 75001 --- [http-nio-8080-exec-8] c.e.demo.controllers.CartController      : Exception - Item 4 does not exists while addToCart
+2024-05-08 19:40:38.719  INFO 75001 --- [http-nio-8080-exec-9] c.e.demo.controllers.CartController      : Success - Item 1 successfully added to cart 2
+2024-05-08 19:40:46.478 ERROR 75001 --- [http-nio-8080-exec-10] c.e.demo.controllers.OrderController     : Exception - User krupeshh does not exists while submit order
+2024-05-08 19:40:50.445  INFO 75001 --- [http-nio-8080-exec-1] c.e.demo.controllers.OrderController     : Success - User krupesh successfully submitted order 1
+2024-05-08 19:41:15.567  INFO 75001 --- [http-nio-8080-exec-3] c.e.demo.controllers.CartController      : Success - Item 2 successfully added to cart 2
+2024-05-08 19:41:18.405  INFO 75001 --- [http-nio-8080-exec-4] c.e.demo.controllers.CartController      : Success - Item 2 successfully added to cart 2
+2024-05-08 19:41:22.691  INFO 75001 --- [http-nio-8080-exec-5] c.e.demo.controllers.CartController      : Success - Item 2 successfully added to cart 2
+2024-05-08 19:41:27.845  INFO 75001 --- [http-nio-8080-exec-6] c.e.demo.controllers.CartController      : Success - Item 1 successfully added to cart 2
+2024-05-08 19:41:30.925  INFO 75001 --- [http-nio-8080-exec-7] c.e.demo.controllers.OrderController     : Success - User krupesh successfully submitted order 2
+2024-05-08 19:41:42.020  INFO 75001 --- [http-nio-8080-exec-9] c.e.demo.controllers.UserController      : Success - User Udacity created successfully
+2024-05-08 19:41:56.299  INFO 75001 --- [http-nio-8080-exec-10] c.e.demo.controllers.CartController      : Success - Item 1 successfully added to cart 3
+2024-05-08 19:42:04.703  INFO 75001 --- [http-nio-8080-exec-1] c.e.demo.controllers.CartController      : Success - Item 2 successfully added to cart 3
+2024-05-08 19:42:05.366  INFO 75001 --- [http-nio-8080-exec-2] c.e.demo.controllers.CartController      : Success - Item 2 successfully added to cart 3
+2024-05-08 19:42:12.142  INFO 75001 --- [http-nio-8080-exec-3] c.e.demo.controllers.OrderController     : Success - User Udacity successfully submitted order 3
+2024-05-08 19:42:27.974  INFO 75001 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2024-05-08 19:42:27.975  INFO 75001 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-08 19:42:27.976  INFO 75001 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-08 19:42:27.978  INFO 75001 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
